@@ -115,7 +115,7 @@ SLIDES.push({
 		// Text 2
 		self.add({
 			id:"text2", type:"TextBox",
-			x:228, y:402, width:500,
+			x:270, y:402, width:500,
 			align:"center", color:"#aaa", size:14,
 			text_id:"outro_2_credits"
 		});
