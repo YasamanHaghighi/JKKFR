@@ -74,21 +74,21 @@ if (self.slideIndex == 9 || self.slideIndex == 10 || self.slideIndex == 11){
 	self.dom.appendChild(_l2);
 	var _l3 = _makeLabel("label_they_cheat", {x:406, y:86, rotation:45, align:"center", color:"#333333", size:15, width:70, lineHeight:1});
 	self.dom.appendChild(_l3);*/
-	var _l4 = _makeLabel("label_you_cheat_4", {x:224, y:83, rotation:0, align:"left", color:"#333333", size:20, width:250, lineHeight:1});
+	var _l4 = _makeLabel("label_you_cheat_4", {x:220, y:83, rotation:0, align:"left", color:"#333333", size:20, width:290, lineHeight:1});
 	self.dom.appendChild(_l4);
-	var _l5 = _makeLabel("label_you_cheat_4", {x:224, y:103, rotation:0, align:"left", color:"#333333", size:20, width:250, lineHeight:1});
+	var _l5 = _makeLabel("label_you_cheat_4", {x:220, y:103, rotation:0, align:"left", color:"#333333", size:20, width:290, lineHeight:1});
 	self.dom.appendChild(_l5);
-	var _l6 = _makeLabel("label_you_cheat_4", {x:224, y:123, rotation:0, align:"left", color:"#333333", size:20, width:250, lineHeight:1});
+	var _l6 = _makeLabel("label_you_cheat_4", {x:220, y:123, rotation:0, align:"left", color:"#333333", size:20, width:290, lineHeight:1});
 	self.dom.appendChild(_l6);
-	var _l7 = _makeLabel("label_you_cheat_4", {x:224, y:143, rotation:0, align:"left", color:"#333333", size:20, width:250, lineHeight:1});
+	var _l7 = _makeLabel("label_you_cheat_4", {x:220, y:143, rotation:0, align:"left", color:"#333333", size:20, width:290, lineHeight:1});
 	self.dom.appendChild(_l7);
-	var _l8 = _makeLabel("label_you_cheat_4", {x:224, y:163, rotation:0, align:"left", color:"#333333", size:20, width:250, lineHeight:1});
+	var _l8 = _makeLabel("label_you_cheat_4", {x:220, y:163, rotation:0, align:"left", color:"#333333", size:20, width:290, lineHeight:1});
 	self.dom.appendChild(_l8);
-	var _l9 = _makeLabel("label_you_cheat_4", {x:224, y:183, rotation:0, align:"left", color:"#333333", size:20, width:250, lineHeight:1});
+	var _l9 = _makeLabel("label_you_cheat_4", {x:220, y:183, rotation:0, align:"left", color:"#333333", size:20, width:290, lineHeight:1});
 	self.dom.appendChild(_l9);
-	var _l10 = _makeLabel("label_you_cheat_4", {x:224, y:203, rotation:0, align:"left", color:"#333333", size:20, width:250, lineHeight:1});
+	var _l10 = _makeLabel("label_you_cheat_4", {x:220, y:203, rotation:0, align:"left", color:"#333333", size:20, width:290, lineHeight:1});
 	self.dom.appendChild(_l10);
-	var _l11 = _makeLabel("label_you_cheat_4", {x:224, y:223, rotation:0, align:"left", color:"#333333", size:20, width:250, lineHeight:1});
+	var _l11 = _makeLabel("label_you_cheat_4", {x:220, y:223, rotation:0, align:"left", color:"#333333", size:20, width:290, lineHeight:1});
 	self.dom.appendChild(_l11);
 //}
 	///////////////////////////////////////////////
