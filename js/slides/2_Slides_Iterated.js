@@ -61,15 +61,15 @@ SLIDES.push({
 			id:"btnNew", type:"Button", x:790, y:320, text_id:"label_2_workelement", uppercase:true, tooltip: "who_element",
 	});
 
-		jQuery('.label').eq(0).text('Work Elements');
+		jQuery('.label').eq(0).text('Tâche individuelle');
 		jQuery('.label').eq(0).css('font-weight', 'bold');
-		jQuery('.label').eq(1).text('1. Make dough');
-		jQuery('.label').eq(2).text('2. Add chocolate chips')
-		jQuery('.label').eq(3).text('and nuts')
-		jQuery('.label').eq(4).text('3. Place dough onto')
-		jQuery('.label').eq(5).text('baking sheet')
-		jQuery('.label').eq(6).text('4. Prepare oven')
-		jQuery('.label').eq(7).text('5. Bake')
+		jQuery('.label').eq(1).text('1. Préparer la pâte');
+		jQuery('.label').eq(2).text('2. Ajouter des brisures de')
+		jQuery('.label').eq(3).text('chocolat et des noix')
+		jQuery('.label').eq(4).text('3. Placer la pâte sur')
+		jQuery('.label').eq(5).text('une feuille de cuisson')
+		jQuery('.label').eq(6).text('4. Préparer le four')
+		jQuery('.label').eq(7).text('5. Faire cuire les biscuits')
 	},
 	onend: function(self){
 		//self.remove("labelYou");

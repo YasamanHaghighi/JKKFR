@@ -61,13 +61,14 @@ SLIDES.push({
 			id:"btnNew", type:"Button", x:790, y:320, text_id:"label_1_recipe", uppercase:true, tooltip: "who_tft",
 	});
 
-		jQuery('.label').eq(0).text('Judgment Criteria:');
+		jQuery('.label').eq(0).text('Critère d’évaluation:');
 		jQuery('.label').eq(0).css('font-weight', 'bold');
-		jQuery('.label').eq(1).text('(A) Placing dough onto');
-		jQuery('.label').eq(2).text('baking sheet: 2" apart');
-		jQuery('.label').eq(3).text('(B) Adding chocolate')
-		jQuery('.label').eq(4).text('chips: 15 grams')
-		jQuery('.label').eq(5).text('(C) Baking: 10 to 12 minutes')
+		jQuery('.label').eq(1).text('(A) Placer la pâte sur une');
+		jQuery('.label').eq(2).text('feuille de cuisson en');
+		jQuery('.label').eq(3).text('laissant: 2" entre');
+		jQuery('.label').eq(4).text('(B) Ajouter les brisures de')
+		jQuery('.label').eq(5).text('chocolat: 15 grammes')
+		jQuery('.label').eq(6).text('(C) Cuire: entre 10 et 12 minutes')
 	},
 	onend: function(self){
 		//self.remove("labelYou");

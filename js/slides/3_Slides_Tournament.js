@@ -64,15 +64,15 @@ SLIDES.push({
 		id:"btnNew2", type:"Button", x:800, y:270, text_id:"label_3_nece", uppercase:true, tooltip: "who_nece",
 });
 
-		jQuery('.label').eq(0).text('Baking Necessary Conditions:');
-		jQuery('.label').eq(0).css('font-weight', 'bold');
-		jQuery('.label').eq(1).text('Input Info: baking time,');
-		jQuery('.label').eq(2).text('oven degree');
-		jQuery('.label').eq(3).text('Tools and methods: oven,')
-		jQuery('.label').eq(4).text('timer, baking sheet, mitt,')
-		jQuery('.label').eq(5).text('baking instructions')
-		jQuery('.label').eq(6).text('Capability: safety training,')
-		jQuery('.label').eq(7).text('measurement skills')
+		jQuery('.label').eq(0).text('Conditions nécessaires pour la cuisson:');
+		jQuery('.label').eq(0).css('font-weight', 'bold',);
+		jQuery('.label').eq(1).text('Info: temps de cuisson,');
+		jQuery('.label').eq(2).text('température du four');
+		jQuery('.label').eq(3).text('Outils et méthodes: four,')
+		jQuery('.label').eq(4).text('minuterie, feuille de cuisson,')
+		jQuery('.label').eq(5).text('mitaines, directives de cuisson')
+		jQuery('.label').eq(6).text('Capacité: formation en')
+		jQuery('.label').eq(7).text('sécurité, être apte à mesurer')
 	},
 	onend: function(self){
 		//self.remove("labelYou");

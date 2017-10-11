@@ -61,11 +61,11 @@ SLIDES.push({
 		id:"btnNew", type:"Button", x:790, y:320, text_id:"label_1_recipe", uppercase:true, tooltip: "who_tft",
 });
 
-		jQuery('.label').eq(0).text('Mr. Kemp cookie expectations:');
+		jQuery('.label').eq(0).text('Attentes de Mr. Kemp relatives à ses biscuits:');
 		jQuery('.label').eq(0).css('font-weight', 'bold');
-		jQuery('.label').eq(1).text('1. Use unsalted butter only');
-		jQuery('.label').eq(2).text('2. Use dark chocolate chips');
-
+		jQuery('.label').eq(1).text('1. Utiliser du beurre non');
+		jQuery('.label').eq(2).text('salé uniquement');
+		jQuery('.label').eq(3).text('2. Utiliser des brisures de chocolat noir');
 	},
 	onend: function(self){
 		//self.remove("labelYou");
