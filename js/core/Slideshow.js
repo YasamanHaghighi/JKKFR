@@ -36,7 +36,13 @@ function Slideshow(config){
 	//////////////////////////////////////////////////
 	/////////////// GO TO NEXT SLIDE /////////////////
 	//////////////////////////////////////////////////
-
+	if (!String.prototype.includes) {
+    String.prototype.includes = function() {
+        'use strict';
+        return String.prototype.indexOf.apply(this, arguments) !== -1;
+    };
+}
+	
 	// Go to next slide
 	self.nextSlide = function(){
 
