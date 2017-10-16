@@ -59,10 +59,10 @@ SLIDES.push({
 
 		self.add({
 			id:"btnNew", type:"Button", x:790, y:320, text_id:"label_3_workelement", uppercase:true, tooltip: "who_element2",
-	});
-	self.add({
-		id:"btnNew2", type:"Button", x:800, y:270, text_id:"label_3_nece", uppercase:true, tooltip: "who_nece",
-});
+		});
+		self.add({
+			id:"btnNew2", type:"Button", x:800, y:270, text_id:"label_3_nece", uppercase:true, tooltip: "who_nece",
+		});
 
 		jQuery('.label').eq(0).text('Conditions nécessaires pour la cuisson:');
 		jQuery('.label').eq(0).css('font-weight', 'bold',);
