@@ -65,7 +65,7 @@ SLIDES.push({
 		});
 
 		jQuery('.label').eq(0).text('Conditions nécessaires pour la cuisson:');
-		jQuery('.label').eq(0).css('font-weight', 'bold',);
+		jQuery('.label').eq(0).css('font-weight', 'bold');
 		jQuery('.label').eq(1).text('Info: temps de cuisson,');
 		jQuery('.label').eq(2).text('température du four');
 		jQuery('.label').eq(3).text('Outils et méthodes: four,')
